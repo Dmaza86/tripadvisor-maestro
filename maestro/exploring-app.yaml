@@ -1,0 +1,11 @@
+appId: com.tripadvisor.tripadvisor
+---
+- launchApp:
+    clearState: true
+
+- tapOn: "I Accept"
+- tapOn: "Ok, got it."
+- tapOn: "Skip"
+- tapOn: "Allow location data"
+- tapOn: "While using the app"
+- assertVisible: "Explore"
