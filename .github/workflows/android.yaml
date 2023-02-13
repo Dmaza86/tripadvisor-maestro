@@ -32,5 +32,5 @@ jobs:
         with:
           api-level: 24
           script: |
-            adb install tier.apk
+            adb install tripadvisor.apk
             maestro test ./maestro/exploring-app.yaml
